@@ -1,0 +1,213 @@
+.row {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*自定义按钮样式*/
+
+.my-button {
+	background: #20a1da;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 1.3em 'Microsoft yahei', Arial, Helvetica, sans-serif;
+	padding: 0.3em 1em;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+	-webkit-box-shadow: 0 1px 2px rgba(#0083bd .2);
+	-moz-box-shadow: 0 1px 2px rgba(#0083bd .2);
+	box-shadow: 0 1px 2px rgba(#0083bd .2);
+	width: 30%;
+	color: white;
+}
+.my-button:hover {
+	text-decoration: none;
+}
+.my-button:active {
+	position: relative;
+	top: 1px;
+}
+/* blue */
+
+.blue {
+	color: white;
+	line-height: 30px;
+	border: solid 1px #0076a3;
+	letter-spacing: 0.5em;
+	background: #113f4a;
+	text-align: center;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2e5e6a), to(#113f4a));
+	background: -moz-linear-gradient(top, #00adee, #0078a5);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top, #0095cc, #00678e);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top, #0078a5, #00adee);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+.my-span {
+	font-size: 2em;
+	font-family: "LiHei Pro Medium", "Microsoft YaHei", "SimHei", serif;
+	padding: 20px 50px;
+	color: white;
+	text-indent: 2em;
+}
+.my-input {
+	border: 0px;
+	background: #ffffff;
+	border-radius: 0.3em;
+	width: 90%;
+	height: 60px;
+}
+.dz{
+	width:100%;
+	height:60%;
+	background: #ffffff;
+	border-top:1px solid #cccccc;
+}
+.dzk{
+	width:90%;
+	height:30%;
+	background:#e9feff;
+	border-top:1px solid #cccccc;
+	border-radius:0.5em;
+    margin-top:5%;
+    margin-left:5%;
+    padding:5px;
+}
+.fktiao{
+	width:100%;
+	height:5%;
+	background:#00b3b3;
+}
+/*a标签*/
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+.indexbanner {
+	width: 100%;
+	height: auto;
+}
+/*图标*/
+
+.tubiao {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.4em;
+	font-family: "LiHei Pro Medium", "Microsoft YaHei", "SimHei", serif;
+}
+.tubiao img {
+	width: 90%;
+	height: auto;
+	margin-top: 20px;
+}
+.person-icon {
+	position: absolute;
+	z-index: 999;
+	top: 12%;
+	left: 8%;
+	width: 30%;
+}
+.phone-div {
+	position: absolute;
+	z-index: 999;
+	font-size: 1.3em;
+	font-family: "LiHei Pro Medium", "Microsoft YaHei", "SimHei", serif;
+	color: white;
+	top: 12%;
+	left: 30%;
+	float: left;
+}
+.banner {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+.jfjs {
+	border-radius: 0.5em;
+	width: 90%;
+	z-index: 1;
+	margin-left: 5%;
+	padding: 2%;
+	margin-top: 10%;
+	background: #ffffff;
+	background-size: 100%;
+}
+.jfjs img {
+	width: 100%;
+}
+.z {
+	width: 50%;
+	color: white;
+	font-size: 1.0em;
+	font-family: "LiHei Pro Medium", "Microsoft YaHei", "SimHei", serif;
+	z-index: 999;
+	margin-top: -32%;
+}
+.hy {
+	background: #e9feff;
+	border: 1px solid #ADADAD;
+	border-radius: 0.5em;
+	margin-top:20%;
+}
+.hy img{
+	width:15%;
+	margin:15% auto;
+}
+
+.hydy{
+	font-size:1em;
+	font-family: "LiHei Pro Medium", "Microsoft YaHei", "SimHei", serif;
+	margin-left:0.3em;
+	color:#999999;
+	margin-top:20%;
+}
+.hydy img{
+		width:30%;
+		float:left;
+		padding:0px 15px 0px 0px;
+}
+.hyz{
+	text-indent: 2em;
+	margin-left:25px;
+}
+/*返回按钮*/
+.fhan{
+	width:50%;
+	background: #00b3b3;
+	margin-top: 18%;
+	margin-left:25%;
+}
+/*底部*/
+.my-footer {
+	position: fixed;
+	width: 100%;
+	height: 55px;
+	font-family: "LiHei Pro Medium", "Microsoft YaHei", "SimHei", serif;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	line-height: 55px;
+	letter-spacing: 0.3em;
+	bottom: 0px;
+	z-index: 1;
+}
+

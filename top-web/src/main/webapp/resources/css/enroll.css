@@ -1,0 +1,215 @@
+/* css for enroll.jsp only */
+body {
+    font-family: "LiHei Pro Medium", "Microsoft YaHei", "SimHei", serif;
+}
+
+.indexbanner {
+    width: 100%;
+    height: auto;
+}
+
+/* BEGIN 分类选择器 */
+#category-selector {
+    margin-bottom: 10px;
+}
+
+#category-selector div.category-btn.active span {
+    padding: 2px 5px 2px 5px;
+    color: white;
+    background-color: #0078a5;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.category-btn {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3.5vw;
+    padding: 0 10px 0 10px;
+}
+
+.category-btn img {
+    width: 90%;
+    height: auto;
+    /*margin-top: 20px;*/
+}
+
+/* END 分类选择器 */
+
+/* BEGIN 多级选择器 */
+.modal-body {
+    padding: 15px 5px 15px 5px;
+}
+
+#item-container button {
+    width: 45%;
+    margin: 5px 5px 5px 5px;
+    font-size: 4vw;
+}
+
+/* END 多级选择器 */
+
+/* BEGIN 会计选择器 */
+#acc-selector p {
+    float: left;
+    padding: 2px 5px 2px 5px;
+    font-size: 4vw;
+    border: 1px solid grey;
+    display: inline;
+    height: 10%;
+}
+
+#acc-selector p.selectable.active {
+    color: #6aafe9;
+}
+
+#acc-selector p.selectable {
+    background-color: white;
+    width: 20%;
+    height: 10%;
+}
+
+/* END 会计选择器 */
+
+/** BEGIN 单级选择器 **/
+.panel-primary {
+    border: 0 solid #000000;
+    background-color: rgb(232, 239, 246);
+}
+
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear: both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #FFFFFF;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.panel-primary > .panel-heading {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #FFFFFF;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, .23);
+    border-bottom-color: transparent;
+}
+
+.tab-pane {
+    height: 40vw;
+    overflow-y: scroll;
+}
+
+.panel-body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+#simple-selector {
+    padding: 0 0 0 0;
+}
+
+#simple-selector p {
+    width: 100%;
+    height: 10%;
+    border: 1px solid grey;
+}
+
+#simple-selector div.active p {
+    background: #6aafe9;
+    color: white;
+}
+
+#simple-selector div.row button {
+    margin: 2px 2px 2px 2px;
+    padding: 6px 6px 6px 6px;
+    width: 30%;
+    font-size: 3.5vw;
+}
+
+/** END 单级选择器 **/
+
+/* footer */
+footer {
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    width: 100%;
+}
+
+.my-footer {
+    width: 100%;
+    /*color: white;*/
+    text-align: center;
+    /*vertical-align: middle;*/
+    height: 18vw;
+    line-height: 18vw;
+    letter-spacing: 0.5em;
+    /*position: absolute;*/
+    bottom: 0;
+    z-index: 1;
+}
+
+/******** sticky footer *******/
+html, body {
+    height: 100%;
+}
+
+footer {
+    color: #666;
+    background: white;
+    padding: 5px 0 5px 0;
+    border-top: solid 1px #ddd;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -63px;
+}
+
+.push {
+    height: 20vw;
+}
+
+/* responsive footer fix by Aalaap Ghag */
+@media (max-width: 767px) {
+    body {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.container {
+    max-width: 940px;
+}
+
+/* end responsive footer fix */
+

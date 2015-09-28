@@ -1,0 +1,19 @@
+.my-header {
+    width: 100%;
+    height: 55px;;
+    background: #00b3b3;
+    font-family: "LiHei Pro Medium", "Microsoft YaHei", "SimHei", serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+/* should be set visible by header() */
+#header-back-btn {
+    visibility: hidden;
+}
+
+/* should be set visible by header() */
+#header-menu-btn {
+    visibility: hidden;
+}
